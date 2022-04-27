@@ -1,10 +1,10 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import CustomDataframe from "./CustomDataframe"
+import DiscreteSlider from "./DiscreteSlider"
 
 ReactDOM.render(
   <React.StrictMode>
-    <CustomDataframe />
+    <DiscreteSlider />
   </React.StrictMode>,
   document.getElementById("root")
 )
