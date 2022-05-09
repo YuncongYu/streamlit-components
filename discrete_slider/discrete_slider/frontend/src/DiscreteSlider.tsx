@@ -56,6 +56,7 @@ class DiscreteSlider extends StreamlitComponentBase<State> {
           );
           // Streamlit.setComponentValue(selectedOption)
         }}
+        disabled={this.props.disabled}
       />
     )
   }
